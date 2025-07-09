@@ -1,14 +1,17 @@
 package com.besson.tutorial;
 
+import com.besson.tutorial.block.ModBlocks;
+import com.besson.tutorial.item.ModItemGroups;
+import com.besson.tutorial.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ArknightMod implements ModInitializer {
-	public static final String MOD_ID = "arknight-mod";
+	public static final String MOD_ID = "tutorial-mod";
 
-	// This logger is used to write text to the console and the log file.
+	// This logger is used to write test to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
@@ -18,7 +21,9 @@ public class ArknightMod implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
+		ModItems.registerItems();
+		ModItemGroups.registerGroups();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

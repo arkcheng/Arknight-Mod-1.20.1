@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "ice_ether",
+  "ingredients": [
+    {
+      "item": "arknight-mod:raw_ice_ether"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "arknight-mod:ice_ether"
+  }
+}

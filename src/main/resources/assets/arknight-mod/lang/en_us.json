@@ -1,0 +1,10 @@
+{
+  "item.arknight-mod.ice_ether": "Ice Ether",
+  "item.arknight-mod.raw_ice_ether": "Raw Ice Ether",
+  "item.arknight-mod.material.cardboard": "Cardboard",
+  "itemGroup.arknight_group": "Arknight Group",
+  "itemGroup.arknight_group2":"Arknight Group2",
+  "block.arknight-mod.ice_ether_block": "Ice Ether Block",
+  "block.arknight-mod.raw_ice_ether_block": "Raw Ice Ether Block",
+  "block.arknight-mod.ice_ether_ore": "Ice Ether Ore"
+}
